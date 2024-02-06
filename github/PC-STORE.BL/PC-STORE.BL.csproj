@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>PC_STORE.BL</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.0" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="Stripe.net" Version="43.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\PC-STORE.DL2\PC-STORE.DL2.csproj" />
+    <ProjectReference Include="..\PC-STORE.MODELS\PC-STORE.MODELS.csproj" />
+  </ItemGroup>
+
+</Project>
